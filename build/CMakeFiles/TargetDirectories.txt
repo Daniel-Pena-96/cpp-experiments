@@ -1,4 +1,0 @@
-/Users/danielpena/Programming/cpp-star/build/CMakeFiles/hello.dir
-/Users/danielpena/Programming/cpp-star/build/CMakeFiles/test.dir
-/Users/danielpena/Programming/cpp-star/build/CMakeFiles/edit_cache.dir
-/Users/danielpena/Programming/cpp-star/build/CMakeFiles/rebuild_cache.dir
