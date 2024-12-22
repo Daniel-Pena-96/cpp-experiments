@@ -1,5 +1,6 @@
 #include <iostream>
 #include "main.hpp"
+#include "pointers/_inc/pointers.hpp"
 
 Person bro("Cancho", 27, 70);
 Person colleague("Viktor", 30, 80);
@@ -10,6 +11,7 @@ int main(){
     std::cout << "name is a public member " << bro.name << std::endl;
     std::cout << "weight is private member " << bro.getWeight() << std::endl;
     std::cout << "age is a public   member / new colleague age: " << colleague.age << std::endl;
-    
+    unique_pointer_example();
+
     return 0;
 }
