@@ -1,15 +1,16 @@
 #include <iostream>
 #include "main.hpp"
-#include "pointers/_inc/pointers.hpp"
+#include "pointers.hpp"
 
-Person bro("Cancho", 27, 70);
-Person colleague("Viktor", 30, 80);
+
+Person pana("Elias", 27, 70);
+Person colleague("Tommy", 30, 80);
 
 int main(){
     std::cout << "age is a public   member / colleague age: " << colleague.age << std::endl;
     colleague.setAge(31);
-    std::cout << "name is a public member " << bro.name << std::endl;
-    std::cout << "weight is private member " << bro.getWeight() << std::endl;
+    std::cout << "name is a public member " << pana.name << std::endl;
+    std::cout << "weight is private member " << pana.getWeight() << std::endl;
     std::cout << "age is a public   member / new colleague age: " << colleague.age << std::endl;
     unique_pointer_example();
 
